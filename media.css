@@ -1,0 +1,226 @@
+@media screen and (max-width: 1500px) {
+    .under__navbar ul{
+        gap: 54px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .under__navbar ul{
+        gap: 45px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .under__navbar ul{
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .under__navbar ul{
+        gap: 26px;
+    }
+    .navbar__logo{
+        width: 10%;
+        height: 80%;
+    }
+    .navbar__input{
+        height: 90%;
+        width: 80%;
+
+    }
+}
+@media screen and (max-width: 990px) {
+    .under__navbar{
+        display: none;
+    }
+    .navbar__logo{
+        width: 13%;
+    }
+    .navbar__icons{
+        width: 10%;
+        grid-gap: 12px;
+    }
+    .navbar__icons i{
+        font-size: 20px;
+
+    }
+    .navbar__icons p{
+        font-size: 10px;
+    }
+    .navbar{
+        height: 70px;
+    }
+    .navbar__input input{
+        font-size: 16px;
+        height: 50%;
+    }    
+    .navbar__input>div{
+        height: 50%;
+    }
+    .hamburger{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .top__navbar p{
+        font-size: 10px;
+    }
+    .top__navbar h4{
+        font-size: 12px;
+    }
+    .top__flag{
+        width: 20px;
+        height: 20px;
+    }
+    .top__navbar{
+        height: 25px;
+    }
+    .navbar__logo{
+        display: none;
+    }
+    .second__logo{
+        display: inline-block;
+        height: 80%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .navbar__icons i{
+        font-size: 18px;
+    }
+    .navbar__icons{
+        grid-gap: 8px;
+    }
+    .navbar__icons p{
+        font-size: 10px;
+    }
+    .navbar{
+        gap: 10px;
+    }
+    .navbar__input{
+        width: 70%;
+    }
+    .navbar__input input{
+        height: 60%;
+    }
+    .navbar__input>div{
+        height: 60%;
+        width: 5%;
+    }
+    .navbar__icons i{
+        font-size: 22px;
+    }
+    .hamburger{
+        font-size: 22px;
+    }
+    .navbar__icons{
+        grid-gap: 18px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .navbar{
+        gap: 10px;
+        padding: 0 10px;
+    }   
+    .navbar__icons{
+        grid-gap: 10px;
+    }
+    .navbar__icons i{
+        font-size: 20px;
+    }
+    .navbar__input>div{
+        width: 25px;
+    }
+    .second__logo{
+        width: 40px;
+        height: 70%;
+    }
+    .navbar__icons p{
+        display: none;
+    }
+    .navbar__input input{
+        height: 55%;
+    }
+    .navbar__input>div{
+        height: 55%;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .navbar{
+        gap: 10px;
+        padding: 0 5px;
+    }
+    .navbar__icons{
+        grid-gap: 8px;
+    }
+    .navbar__icons i{
+        font-size: 18px;
+    }
+    .hamburger{
+        font-size: 18px;
+    }
+    .navbar__input>div i{
+        font-size: 18px;
+    }
+    .navbar__input{
+        width: 65%;
+        height: 80%;
+    }
+    .second__logo{
+        width: 35px;
+        height: 65%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .fa-user{
+        display: none;
+    }
+    .navbar{
+        min-height: 80px;
+        align-items: flex-start;
+        padding: 10px 0;
+        position: relative;
+    }
+    .second__logo{
+        height: 40%;
+        width: 40px;
+        position: absolute;
+        left: 10%;
+        top: 2px;
+    }
+    .hamburger{
+        position: absolute;
+        left: 5%;
+    }
+    .navbar__input{
+        position: absolute;
+        height: 55px;
+        bottom: 0;
+        left: 5%;
+        width: 90%;
+    }    
+    .navbar__icons{
+        position: absolute;
+        right: 10%;
+        top: 10px;
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 300px) {
+    .navbar__input{
+        left: 2%;
+        width: 96%;
+    }
+    .hamburger{
+        left: 2%;
+    }
+    .second__logo{
+        left: 25px;
+    }
+    .navbar__icons{
+        right: 10%;
+    }
+    
+}
+
+
+
+

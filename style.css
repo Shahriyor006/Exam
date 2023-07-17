@@ -209,6 +209,7 @@ body{
 .limited__time__title{
     text-align: center;
     margin: 30px;
+    color: #2F3337;
 }
 .beautiful__finds,
 .limited__time{
@@ -296,9 +297,29 @@ body{
 .item p{
     padding-top: 10px;
     padding-left: 20px;
-
 }
-
-
-
-
+.brand{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.under{
+    text-align: center;
+    padding-bottom: 5px;
+    position: relative;
+}
+.under b{
+    color: #2F3337;
+    font-size: 20px;
+}
+.under button{
+    position: absolute;
+    z-index: 4;
+    right: 2%;
+    bottom: 22%;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 2px 3px;
+    background: #282B2C;
+    opacity: .8;
+}

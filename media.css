@@ -100,20 +100,25 @@
         display: inline-block;
         height: 80%;
     }
+    .elevate__space__bg,
     .home__saving__bg{
         width: 96%;
         margin-left: 2%;
     }
+    .elevate__space__text h2,
     .home__saving__text h2{
         font-size: 50px;
     }
+    .elevate__space__text h1,
     .home__saving__text h1{
     font-size: 100px;
     line-height: 0.8;
 }
+.elevate__space__text h3,
 .home__saving__text h3{
     padding-top: 20px;
 }
+.elevate__space__text button,
 .home__saving__text button{
     font-size: 20px;
     background: #ED0000;
@@ -200,28 +205,35 @@
     .navbar__input>div{
         height: 55%;
     }
+    .elevate__space,
     .home__saving{
     width: 100%;
     height: 400px;
     }
+    .elevate__space__bg,
     .home__saving__bg{
         width: 96%;
         margin-left: 2%;
     }
+    .elevate__space__text,
     .home__saving__text{
         padding: 10px 10px;
     }
+    .elevate__space__text h2,
     .home__saving__text h2{
         font-size: 40px;
     }
+    .elevate__space__text h1,
     .home__saving__text h1{
         font-size: 80px;
         line-height: 0.8;
     }
+    .elevate__space__texth3,
     .home__saving__text h3{
         font-size: 25px;
         line-height: 0.8;
     }
+    .elevate__space__text button,
     .home__saving__text button{
         font-size: 18px;
         margin-top: 10px;
@@ -254,6 +266,7 @@
         width: 35px;
         height: 65%;
     }
+    .elevate__space__text,
     .home__saving__text{
         left: 2%;
         text-align: start;
@@ -261,25 +274,31 @@
         padding: 0;
 
     }
+    .elevate__space__bg,
     .home__saving__bg{
         object-fit: cover;
     }
+    .elevate__space__text h2,
     .home__saving__text h2{
         font-size: 30px;
     }
+    .elevate__space__text h1,
     .home__saving__text h1{
         font-size: 60px;
         line-height: 0.8;
     }
+    .elevate__space__text h3,
     .home__saving__text h3{
         font-size: 20px;
         line-height: 0.5;
     }
+    .elevate__space__text button,
     .home__saving__text button{
         font-size: 18px;
         margin-top: 15px;
         padding: 13px 25px;
     }
+    .elevate__space,
     .home__saving{
         width: 100%;
     }
@@ -332,12 +351,14 @@
         top: 10px;
         font-size: 20px;
     }
+    .elevate__space__text,
     .home__saving__text{
         padding: 0;
         height: 90%;
         min-width: 250px;
         padding-top: 30px;
     }
+    .elevate__space,
     .home__saving{
         height: 350px;
     }

@@ -150,6 +150,7 @@ body{
     left: 0;
     z-index: 10;
 }
+.stay__cool,
 .elevate__space,
 .home__saving{
     width: 100%;
@@ -158,12 +159,14 @@ body{
     position: relative;
     align-items: center;
 }
+.stay__cool__bg,
 .elevate__space__bg,
 .home__saving__bg{
     width: 92%;
     height: 100%;
     margin-left: 4%;
 }
+.stay__cool__text,
 .elevate__space__text,
 .home__saving__text{
     min-width: 400px;
@@ -179,16 +182,19 @@ body{
 .home__saving__text h2{
     font-size: 60px;
 }
+.stay__cool__text p,
 .elevate__space__text h1,
 .home__saving__text h1{
     font-size: 120px;
     line-height: 0.8;
 }
+.stay__cool__text h3,
 .elevate__space__text h3,
 .home__saving__text h3{
     font-size: 30px;
     line-height: 0.8;
 }
+.stay__cool__text button,
 .elevate__space__text button,
 .home__saving__text button{
     font-size: 20px;
@@ -212,7 +218,6 @@ body{
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 16px;
     padding: 0 2%;
-    border: 1px solid black;
 }
 .beautiful__finds__item,
 .limited__time__item{
@@ -244,7 +249,10 @@ body{
 .elevate__space__text h3{
     padding-top: 22px;
 }
-
-
-
-
+.stay__cool__text h3{
+    padding: 30px;
+    padding-top: 40px;
+}
+.stay__cool__text{
+    margin-left: 25%;
+}

@@ -47,6 +47,19 @@
     .beautiful__finds__item h3{
         padding-top: 30px;
     }
+    .stay__cool__text{
+        margin-left: 18%;
+        height: auto;
+    }
+    .stay__cool__bg{
+        height: 500px;
+    }
+    .stay__cool__text p{
+        font-size: 70px;
+    }
+    .stay__cool__text h3{
+        font-size: 24px;
+    }
 }
 @media screen and (max-width: 990px) {
     .under__navbar{
@@ -100,6 +113,7 @@
         display: inline-block;
         height: 80%;
     }
+    .stay__cool__bg,
     .elevate__space__bg,
     .home__saving__bg{
         width: 96%;
@@ -109,15 +123,18 @@
     .home__saving__text h2{
         font-size: 50px;
     }
+    .stay__cool__text p,
     .elevate__space__text h1,
     .home__saving__text h1{
     font-size: 100px;
     line-height: 0.8;
 }
+.stay__cool__text h3,
 .elevate__space__text h3,
 .home__saving__text h3{
     padding-top: 20px;
 }
+.stay__cool__text button,
 .elevate__space__text button,
 .home__saving__text button{
     font-size: 20px;
@@ -176,6 +193,9 @@
     .limited__time__item{
         height: auto;
     }
+    .stay__cool__text{
+        margin-left: 12%;
+    }
 }
 @media screen and (max-width: 700px) {
     .navbar{
@@ -205,16 +225,19 @@
     .navbar__input>div{
         height: 55%;
     }
+    .stay__cool,
     .elevate__space,
     .home__saving{
     width: 100%;
     height: 400px;
     }
+    .stay__cool__bg,
     .elevate__space__bg,
     .home__saving__bg{
         width: 96%;
         margin-left: 2%;
     }
+    .stay__cool__text,
     .elevate__space__text,
     .home__saving__text{
         padding: 10px 10px;
@@ -223,24 +246,29 @@
     .home__saving__text h2{
         font-size: 40px;
     }
+    .stay__cool__text p,
     .elevate__space__text h1,
     .home__saving__text h1{
         font-size: 80px;
         line-height: 0.8;
     }
-    .elevate__space__texth3,
+    .stay__cool__text h3,
+    .elevate__space__text h3,
     .home__saving__text h3{
-        font-size: 25px;
+        font-size: 24px;
         line-height: 0.8;
     }
+    .stay__cool__text button,
     .elevate__space__text button,
     .home__saving__text button{
         font-size: 18px;
         margin-top: 10px;
     }
-
-    
-}
+    .stay__cool__text{
+        margin-left: 10px;
+        min-width: 250px;
+    }
+}   
 @media screen and (max-width: 500px) {
     .navbar{
         gap: 10px;
@@ -266,14 +294,16 @@
         width: 35px;
         height: 65%;
     }
+    .stay__cool__text,
     .elevate__space__text,
     .home__saving__text{
-        left: 2%;
+        left: 4%;
         text-align: start;
         min-width: 300px;
         padding: 0;
 
     }
+    .stay__cool__bg,
     .elevate__space__bg,
     .home__saving__bg{
         object-fit: cover;
@@ -282,22 +312,26 @@
     .home__saving__text h2{
         font-size: 30px;
     }
+    .stay__cool__text p,
     .elevate__space__text h1,
     .home__saving__text h1{
         font-size: 60px;
         line-height: 0.8;
     }
+    .stay__cool__text h3,
     .elevate__space__text h3,
     .home__saving__text h3{
         font-size: 20px;
         line-height: 0.5;
     }
+    .stay__cool__text button,
     .elevate__space__text button,
     .home__saving__text button{
         font-size: 18px;
         margin-top: 15px;
         padding: 13px 25px;
     }
+    .stay__cool,
     .elevate__space,
     .home__saving{
         width: 100%;
@@ -315,6 +349,20 @@
     .limited__time__title,
     .beautiful__finds__title{
         font-size: 35px;
+    }
+    .stay__cool__text{
+        text-align: center;
+        max-width: 350px;
+    }
+    .stay__cool__bg{
+        height: 350px;
+        margin-top: -25px;
+    }
+    .stay__cool__text h3{
+        font-size: 16px;
+    }
+    .stay__cool__text button{
+        margin-top: -15px;
     }
 }
 @media screen and (max-width: 400px) {
@@ -358,9 +406,24 @@
         min-width: 250px;
         padding-top: 30px;
     }
+    .stay__cool__text{
+        min-width: 300px;
+        padding: 0;
+    }
+    .stay__cool,
     .elevate__space,
     .home__saving{
         height: 350px;
+    }
+    .stay__cool__text h3{
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .stay__cool__text p{
+        font-size: 40px;
+    }
+    .stay__cool{
+        margin-top: 10px;
     }
     .beautiful__finds,
     .limited__time{
@@ -375,6 +438,9 @@
     }
     .beautiful__finds__title{
         font-size: 25px;
+    }
+    .stay__cool__bg{
+        max-height: 300px;
     }
 }
 @media screen and (max-width: 300px) {

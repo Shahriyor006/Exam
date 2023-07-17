@@ -2,6 +2,7 @@
     .under__navbar ul{
         gap: 54px;
     }
+    
 }
 @media screen and (max-width: 1400px) {
     .under__navbar ul{
@@ -79,6 +80,26 @@
         display: inline-block;
         height: 80%;
     }
+    .home__saving__bg{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .home__saving__text h2{
+        font-size: 50px;
+    }
+    .home__saving__text h1{
+    font-size: 100px;
+    line-height: 0.8;
+}
+.home__saving__text h3{
+    padding-top: 20px;
+}
+.home__saving__text button{
+    font-size: 20px;
+    background: #ED0000;
+    padding: 15px 30px;
+}
+
 }
 @media screen and (max-width: 850px) {
     .navbar__icons i{
@@ -119,6 +140,7 @@
         padding: 0 10px;
     }   
     .navbar__icons{
+        margin-left: 20px;
         grid-gap: 10px;
     }
     .navbar__icons i{
@@ -140,6 +162,34 @@
     .navbar__input>div{
         height: 55%;
     }
+    .home__saving{
+    width: 100%;
+    height: 400px;
+    }
+    .home__saving__bg{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .home__saving__text{
+        padding: 10px 10px;
+        border: 1px solid black;
+    }
+    .home__saving__text h2{
+        font-size: 40px;
+    }
+    .home__saving__text h1{
+        font-size: 80px;
+        line-height: 0.8;
+    }
+    .home__saving__text h3{
+        font-size: 25px;
+        line-height: 0.8;
+    }
+    .home__saving__text button{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
     
 }
 @media screen and (max-width: 500px) {
@@ -166,6 +216,35 @@
     .second__logo{
         width: 35px;
         height: 65%;
+    }
+    .home__saving__text{
+        left: 2%;
+        text-align: start;
+        min-width: 300px;
+        padding: 0;
+
+    }
+    .home__saving__bg{
+        object-fit: cover;
+    }
+    .home__saving__text h2{
+        font-size: 30px;
+    }
+    .home__saving__text h1{
+        font-size: 60px;
+        line-height: 0.8;
+    }
+    .home__saving__text h3{
+        font-size: 20px;
+        line-height: 0.5;
+    }
+    .home__saving__text button{
+        font-size: 18px;
+        margin-top: 15px;
+        padding: 13px 25px;
+    }
+    .home__saving{
+        width: 100%;
     }
 }
 @media screen and (max-width: 400px) {
@@ -202,7 +281,15 @@
         top: 10px;
         font-size: 20px;
     }
-
+    .home__saving__text{
+        padding: 0;
+        height: 90%;
+        min-width: 250px;
+        padding-top: 30px;
+    }
+    .home__saving{
+        height: 350px;
+    }
 }
 @media screen and (max-width: 300px) {
     .navbar__input{

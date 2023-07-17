@@ -7,7 +7,7 @@
 body{
     max-width: 1550px;
     margin: auto;
-    min-height: 500vh;
+    min-height: 800vh;
 }
 .top__navbar{
     width: 100%;
@@ -256,3 +256,49 @@ body{
 .stay__cool__text{
     margin-left: 25%;
 }
+
+
+.wrapper{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.wrapper::-webkit-scrollbar{
+    height: 6px;
+}
+.wrapper::-webkit-scrollbar-thumb{
+    background: #999;
+    border-radius: 6px;
+}
+.item{
+    width: 350px;
+    min-width: 350px;
+    height: 450px;
+    background: #F5F5F5;            
+}
+.trending{
+    color: #2F3337;
+    font-size: 40px;
+}
+.item img{
+    width: 100%;
+    height: 80%;
+}
+.item h3{
+    padding-left: 20px;
+    font-size: 24px;
+    color: #2F3337;
+}
+.item p{
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+
+
+

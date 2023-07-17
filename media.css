@@ -8,6 +8,12 @@
     .under__navbar ul{
         gap: 45px;
     }
+    .limited__time__item h1{
+        font-size: 28px;
+    }
+    .limited__time__item h3{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 1300px) {
     .under__navbar ul{
@@ -25,7 +31,21 @@
     .navbar__input{
         height: 90%;
         width: 80%;
-
+    }
+    .limited__time__item{
+        grid-gap: 10px;
+    }
+    .limited__time__item h1{
+        font-size: 24px;
+    }
+    .limited__time__item h3{
+        font-size: 16px;
+    }
+    .beautiful__finds__item{
+        padding: 5px;
+    }
+    .beautiful__finds__item h3{
+        padding-top: 30px;
     }
 }
 @media screen and (max-width: 990px) {

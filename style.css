@@ -153,7 +153,6 @@ body{
 .home__saving{
     width: 100%;
     height: 550px;
-    background: red;
     display: flex;
     position: relative;
     align-items: center;
@@ -167,7 +166,6 @@ body{
     min-width: 400px;
     height: 80%;
     padding: 20px 20px;
-    border: 1px solid black;
     position: absolute;
     left: 4%;
     text-align: center;
@@ -194,4 +192,48 @@ body{
     color: #fff;
     margin-top: 20px;
 }
+.beautiful__finds__title,
+.limited__time__title{
+    text-align: center;
+    margin: 30px;
+}
+.beautiful__finds,
+.limited__time{
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 16px;
+    padding: 0 2%;
+}
+.beautiful__finds__item,
+.limited__time__item{
+    padding: 15px 0;
+    text-align: center;
+    line-height: 1.2;
+    height: 300px;
+}
+.beautiful__finds__item img,
+.limited__time__item img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.beautiful__finds__item h3{
+    padding-top: 50px;
+}
+.limited__time__item h1{
+    color: #ED0000;
+}
+.beautiful__finds__item h3,
+.limited__time__item h3{
+    color: #444;
+    cursor: pointer;
+}
+
+
+
+
+
 

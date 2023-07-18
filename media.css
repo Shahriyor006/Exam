@@ -60,6 +60,9 @@
     .stay__cool__text h3{
         font-size: 24px;
     }
+    .saving__style{
+        height: 450px;
+    }
 }
 @media screen and (max-width: 990px) {
     .under__navbar{
@@ -152,6 +155,10 @@
     .limited__time__item{
         height: auto;
     }
+    .home__saving{
+        height: 300px;
+        width: 96%;
+    }
 }
 @media screen and (max-width: 850px) {
     .navbar__icons i{
@@ -195,6 +202,21 @@
     }
     .stay__cool__text{
         margin-left: 12%;
+    }
+    .saving__style{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .saving__style{
+        display: none;
+        background: #F5F6F7;
+        height: auto;
+    }    
+    .second__saving__style{
+        display: inline-block;
+        margin-top: 20px;
+        left: 4%;
     }
 }
 @media screen and (max-width: 700px) {
@@ -370,6 +392,16 @@
     .trending{
         padding-top: -20px;
     }
+    .second__saving__style{
+        width: 96%;
+    }
+    .second__saving__style img:first-child{
+        margin-left: 2%;
+    }
+    .second__saving__style img:nth-child(2){
+        width: 100%;
+        margin-left: 2%;
+    }
 }
 @media screen and (max-width: 400px) {
     .fa-user{
@@ -455,6 +487,12 @@
     .trending{
         padding-top: 15px;
     }
+    .second__saving__style{
+        margin: auto;
+        margin-top: 20px;
+        margin-left: -4px;
+    }
+
 }
 @media screen and (max-width: 300px) {
     .navbar__input{

@@ -477,6 +477,9 @@
         grid-gap: 10px;
         padding: 0 5px;
     }
+    .under__footer ul{
+        padding: 0 5px;
+    } 
     .under__footer ol img{
         margin-left: 10px;
     }
